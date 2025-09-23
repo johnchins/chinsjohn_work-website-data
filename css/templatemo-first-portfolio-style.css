@@ -505,7 +505,7 @@ strong {
 }
 
 .hero-image-wrap {
-  background: var(--white-color);
+  /* background: var(--white-color); */
   border-radius: 100%;
   width: 350px;
   height: 350px;
@@ -1184,4 +1184,5 @@ strong {
     min-width: inherit;
   }
 }
+
 
