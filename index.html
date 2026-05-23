@@ -748,6 +748,89 @@ https://templatemo.com/tm-578-first-portfolio
         <script src="js/magnific-popup-options.js"></script>
         <script src="js/custom.js"></script>
 
+
+        <script type="module" defer>
+  import Chatbot from "https://cdn.n8nchatui.com/v1/embed.js";
+  Chatbot.init({
+    "n8nChatUrl": "https://ralogic.app.n8n.cloud/webhook/a8dfb622-9d21-4019-8f3a-03cc5ffaf819/chat",
+    "metadata": {}, // Include any custom data to send with each message to your n8n workflow
+    "theme": {
+      "button": {
+        "backgroundColor": "#08b3bf",
+        "right": 20,
+        "bottom": 20,
+        "size": 50,
+        "iconColor": "#373434",
+        "customIconSrc": "https://www.svgrepo.com/show/362552/chat-centered-dots-bold.svg",
+        "customIconSize": 60,
+        "customIconBorderRadius": 15,
+        "autoWindowOpen": {
+          "autoOpen": false,
+          "openDelay": 2
+        },
+        "borderRadius": "rounded",
+        "draggable": false
+      },
+      "tooltip": {
+        "showTooltip": true,
+        "tooltipMessage": "Hello 👋 customize & connect me to n8n",
+        "tooltipBackgroundColor": "#f2dbcf",
+        "tooltipTextColor": "#1c1c1c",
+        "tooltipFontSize": 15,
+        "hideTooltipOnMobile": true
+      },
+      "allowProgrammaticMessage": false,
+      "chatWindow": {
+        "borderRadiusStyle": "rounded",
+        "avatarBorderRadius": 25,
+        "messageBorderRadius": 6,
+        "showTitle": true,
+        "title": "N8N Chat UI Bot",
+        "titleAvatarSrc": "https://www.svgrepo.com/show/362552/chat-centered-dots-bold.svg",
+        "avatarSize": 40,
+        "welcomeMessage": "Hello! This is the default welcome message",
+        "errorMessage": "Please connect me to n8n first",
+        "backgroundColor": "#ddd9d9",
+        "height": 600,
+        "width": 400,
+        "fontSize": 16,
+        "starterPrompts": [
+          "Who are you?",
+          "What do you do?"
+        ],
+        "starterPromptFontSize": 15,
+        "renderHTML": false,
+        "clearChatOnReload": false,
+        "showScrollbar": false,
+        "botMessage": {
+          "backgroundColor": "#030f6d",
+          "textColor": "#fafafa",
+          "showAvatar": true,
+          "avatarSrc": "https://www.svgrepo.com/show/334455/bot.svg",
+          "showCopyToClipboardIcon": false
+        },
+        "userMessage": {
+          "backgroundColor": "#fff6f3",
+          "textColor": "#050505",
+          "showAvatar": true,
+          "avatarSrc": "https://www.svgrepo.com/show/532363/user-alt-1.svg"
+        },
+        "textInput": {
+          "placeholder": "Type your query",
+          "backgroundColor": "#ffffff",
+          "textColor": "#1e1e1f",
+          "sendButtonColor": "#9a2704",
+          "maxChars": 50,
+          "maxCharsWarningMessage": "You exceeded the characters limit. Please input less than 50 characters.",
+          "autoFocus": false,
+          "enableInputHistory": true,
+          "borderRadius": 6,
+          "sendButtonBorderRadius": 50
+        }
+      }
+    }
+    });
+  </script>
     </body>
 
 </html>
